@@ -27,4 +27,9 @@ const Tab = props => {
 
 // Make sure you include PropTypes on your props.
 
+Tab.propTypes ={
+  tab: PropTypes.array.isRequired,
+  selectedTab: PropTypes.object.isRequired
+}
+
 export default Tab;
