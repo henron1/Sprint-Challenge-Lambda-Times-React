@@ -45,12 +45,12 @@ const Tabs = props => {
     <TabsMain>
       <Topics>
         <Title5>TRENDING TOPICS:</Title5>
-        {/* <Tab4> */}
+        <Tab9>
         {props.tabs.map((tab) => 
           <Tab selectTabHandler={props.selectTabHandler} selectedTab={props.selectedTab} tab={tab} />
         )}
 
-        {/* </Tab4> */}
+        </Tab9>
         
       </Topics>
     </TabsMain>
